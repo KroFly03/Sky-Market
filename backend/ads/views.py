@@ -38,7 +38,7 @@ class AdViewSet(viewsets.ModelViewSet):
         return Ad.objects.all()
 
     def get_permissions(self):
-        return self.permissions.get(self.action, self.default_permission_class)
+        return [permissions() for permissions in self.permissions.get(self.action, self.default_permission_class)]
 
     def get_serializer_class(self):
         return self.serializers.get(self.action, self.default_serializer_class)
@@ -65,7 +65,7 @@ class CommentViewSet(viewsets.ModelViewSet):
     }
 
     def get_permissions(self):
-        return self.permissions.get(self.action, self.default_permission_class)
+        return [permissions() for permissions in self.permissions.get(self.action, self.default_permission_class)]
 
     def perform_create(self, serializer):
         ad = get_object_or_404(Ad, id=self.kwargs['ad__pk'])

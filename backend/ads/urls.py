@@ -6,7 +6,7 @@ from ads.views import AdViewSet, CommentViewSet
 
 ads_router = routers.SimpleRouter()
 ads_router.register('ads', AdViewSet, basename='ads')
-comment_router = routers.NestedSimpleRouter(ads_router, 'ads', lookup='ad')
+comment_router = routers.NestedSimpleRouter(ads_router, 'ads', lookup='ads')
 comment_router.register('comments', CommentViewSet, basename='comments')
 
 urlpatterns = [
