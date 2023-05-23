@@ -14,7 +14,7 @@ function CommentList({ comments, setComments, user }) {
                 key={comment.pk}
                 text={comment.text}
                 adId={comment.ad_id}
-                img={comment.author_image}
+                img={"http://127.0.0.1:8000/media/"+comment.author_image}
                 commentId={comment.pk}
                 userId={comment.author_id}
                 setComments={setComments}

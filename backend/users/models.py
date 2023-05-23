@@ -17,7 +17,7 @@ class User(AbstractBaseUser):
     last_name = models.CharField(max_length=100)
     phone = PhoneNumberField()
     is_active = models.BooleanField(default=True)
-    image = models.ImageField(upload_to='user/', null=True)
+    image = models.ImageField(upload_to='user/', default='user/default_user.png')
 
     objects = UserManager()
 

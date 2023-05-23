@@ -10,7 +10,8 @@
       "role": "user",
       "first_name":"Иван",
       "last_name": "Иванов",
-      "is_active": true
+      "is_active": true,
+      "image": "user/default_user.png"
     }
   },
   {
@@ -24,7 +25,8 @@
       "role": "user",
       "first_name":"Петр",
       "last_name": "Петров",
-      "is_active": true
+      "is_active": true,
+      "image": "user/default_user.png"
     }
   },
     {
@@ -38,7 +40,8 @@
       "role": "user",
       "first_name":"Петр",
       "last_name": "Петров",
-      "is_active": true
+      "is_active": true,
+      "image": "user/default_user.png"
     }
   },
     {
@@ -52,7 +55,8 @@
       "role": "user",
       "first_name":"Сергей",
       "last_name": "Стародубцев",
-      "is_active": true
+      "is_active": true,
+      "image": "user/default_user.png"
     }
   },
   {
@@ -66,7 +70,8 @@
       "role": "admin",
       "first_name": "Админ",
       "last_name": "Петров",
-      "is_active": true
+      "is_active": true,
+      "image": "user/default_user.png"
     }
   }
 ]

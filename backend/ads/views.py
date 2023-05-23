@@ -68,6 +68,11 @@ class CommentViewSet(viewsets.ModelViewSet):
         return [permissions() for permissions in self.permissions.get(self.action, self.default_permission_class)]
 
     def perform_create(self, serializer):
-        ad = get_object_or_404(Ad, id=self.kwargs['ad__pk'])
+        ad = get_object_or_404(Ad, id=self.kwargs['ads__pk'])
         author = self.request.user
         serializer.save(author=author, ad=ad)
+
+    def list(self, request, *args, **kwargs):
+        self.queryset = Comment.objects.all().filter(ad=self.kwargs['ads__pk'])
+        print(Comment.objects.get(pk=1).author.image)
+        return super().list(request, *args, **kwargs)

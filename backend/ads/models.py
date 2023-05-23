@@ -7,7 +7,7 @@ class Ad(models.Model):
     title = models.CharField(max_length=100, verbose_name='Название')
     price = models.PositiveIntegerField(verbose_name='Цена')
     description = models.TextField(verbose_name='Описание')
-    image = models.ImageField(upload_to='ad/', null=True)
+    image = models.ImageField(upload_to='ad/', default='ad/default_ad.png')
     author = models.ForeignKey(User, on_delete=models.CASCADE, verbose_name='Автор')
     created_at = models.DateTimeField(auto_now_add=True, verbose_name='Создан')
 

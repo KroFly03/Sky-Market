@@ -3,7 +3,7 @@
     "model": "ads.ad",
     "pk": 1,
     "fields": {
-      "image": null,
+      "image": "ad/default_ad.png",
       "title": "Компьютер недорого",
       "price": 10000,
       "author": 1,
@@ -15,7 +15,7 @@
     "model": "ads.ad",
     "pk": 2,
     "fields": {
-      "image": null,
+      "image": "ad/default_ad.png",
       "title": "Шкаф, почти новый",
       "price": 10000,
       "author": 1,
@@ -27,7 +27,7 @@
     "model": "ads.ad",
     "pk": 3,
     "fields": {
-      "image": null,
+      "image": "ad/default_ad.png",
       "title": "Отдам даром",
       "price": 10000,
       "author": 1,
@@ -38,7 +38,7 @@
     "model": "ads.ad",
     "pk": 4,
     "fields": {
-      "image": null,
+      "image": "ad/default_ad.png",
       "title": "Автомобиль",
       "price": 10000,
       "author": 2,
@@ -49,7 +49,7 @@
     "model": "ads.ad",
     "pk": 5,
     "fields": {
-      "image": null,
+      "image": "ad/default_ad.png",
       "title": "Кухонный гарнитур",
       "price": 10000,
       "author": 2,
@@ -60,7 +60,7 @@
     "model": "ads.ad",
     "pk": 6,
     "fields": {
-      "image": null,
+      "image": "ad/default_ad.png",
       "title": "Плита",
       "price": 10000,
       "author": 2,
@@ -71,7 +71,7 @@
     "model": "ads.ad",
     "pk": 7,
     "fields": {
-      "image": null,
+      "image": "ad/default_ad.png",
       "title": "Стиральная машина",
       "price": 10000,
       "author": 3,
@@ -81,7 +81,7 @@
     "model": "ads.ad",
     "pk": 8,
     "fields": {
-      "image": null,
+      "image": "ad/default_ad.png",
       "title": "Кресло",
       "price": 10000,
       "author": 3,
@@ -92,7 +92,7 @@
     "model": "ads.ad",
     "pk": 9,
     "fields": {
-      "image": null,
+      "image": "ad/default_ad.png",
       "title": "Ноутбук",
       "price": 10000,
       "author": 3,
@@ -102,7 +102,7 @@
     "model": "ads.ad",
     "pk": 10,
     "fields": {
-      "image": null,
+      "image": "ad/default_ad.png",
       "title": "Игра",
       "price": 10000,
       "author": 4,
@@ -112,7 +112,7 @@
     "model": "ads.ad",
     "pk": 11,
     "fields": {
-      "image": null,
+      "image": "ad/default_ad.png",
       "title": "SkyStation",
       "price": 10000,
       "author": 4,
@@ -122,7 +122,7 @@
     "model": "ads.ad",
     "pk": 12,
     "fields": {
-      "image": null,
+      "image": "ad/default_ad.png",
       "title": "Колеса",
       "price": 10000,
       "author": 4,
@@ -132,7 +132,7 @@
     "model": "ads.ad",
     "pk": 13,
     "fields": {
-      "image": null,
+      "image": "ad/default_ad.png",
       "title": "Рассада",
       "price": 10000,
       "author": 4,
