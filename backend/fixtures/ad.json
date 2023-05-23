@@ -3,7 +3,7 @@
     "model": "ads.ad",
     "pk": 1,
     "fields": {
-      "image": "ad/default_ad.png",
+      "image": "ad/computer.png",
       "title": "Компьютер недорого",
       "price": 10000,
       "author": 1,
@@ -15,7 +15,7 @@
     "model": "ads.ad",
     "pk": 2,
     "fields": {
-      "image": "ad/default_ad.png",
+      "image": "ad/closet.png",
       "title": "Шкаф, почти новый",
       "price": 10000,
       "author": 1,
@@ -27,7 +27,7 @@
     "model": "ads.ad",
     "pk": 3,
     "fields": {
-      "image": "ad/default_ad.png",
+      "image": "ad/plant.png",
       "title": "Отдам даром",
       "price": 10000,
       "author": 1,
@@ -38,7 +38,7 @@
     "model": "ads.ad",
     "pk": 4,
     "fields": {
-      "image": "ad/default_ad.png",
+      "image": "ad/car.png",
       "title": "Автомобиль",
       "price": 10000,
       "author": 2,
@@ -49,7 +49,7 @@
     "model": "ads.ad",
     "pk": 5,
     "fields": {
-      "image": "ad/default_ad.png",
+      "image": "ad/kitchen.png",
       "title": "Кухонный гарнитур",
       "price": 10000,
       "author": 2,
